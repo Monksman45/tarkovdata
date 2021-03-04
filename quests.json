@@ -3341,7 +3341,38 @@
                 "rep": 0.04
             }
         ],
-        "objectives": []
+        "objectives": [
+            {
+                "type": "build",
+                "target": "MP-133",
+                "number": 1,
+                "with": [
+                    {
+                        "type":"cells",
+                        "value":"<4"
+                    },
+                    {
+                        "type":"stat",
+                        "name":"ergonomics",
+                        "value":">47"
+                    },
+                    {
+                        "type":"stat",
+                        "name":"recoil",
+                        "value":"<950"
+                    },
+                    {
+                        "type":"attachment",
+                        "name":"Laser Designator"
+                    },
+                    {
+                        "type":"attachment",
+                        "name":"Extended Mag"
+                    }
+                ],
+                "id": 162
+            }
+        ]
     },
     {
         "id": 83,
